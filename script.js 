@@ -14,3 +14,8 @@ if (parseInt(guess) === randomNumber) {
      correctGuess = true;
    }
 }
+if (correctGuess) {
+  document.write('<p>You guessed the number!</p>');
+} else {
+  document.write('<p>Sorry the number was ' + randomNumber + '</p>');
+}
