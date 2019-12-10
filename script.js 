@@ -8,4 +8,9 @@ if (parseInt(guess) === randomNumber) {
    var guessMore = prompt('Try again. The number I am thinking of is more than ' + guess);
    if (parseInt(guessMore) === randomNumber) {
      correctGuess = true;
+   } else if (parseInt(guess) > randomNumber) { 
+   var guessLess = prompt('Try again. The number I am thinking of is less than ' + guess);
+   if (parseInt(guessMore) === randomNumber) {
+     correctGuess = true;
    }
+}
