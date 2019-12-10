@@ -19,3 +19,4 @@ if (correctGuess) {
 } else {
   document.write('<p>Sorry the number was ' + randomNumber + '</p>');
 }
+}
