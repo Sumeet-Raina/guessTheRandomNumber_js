@@ -7,8 +7,14 @@ var correctGuess = false;
 
 //Generate random number from 1 to 6
 var randomNumber = Math.floor(Math.floor(Math.random() * 6)+ 1);
+
 var guess = prompt("I am thinking of a number between 1 and 6. What is it?");
 
+/* test to see if player is 
+1. Correct
+2. guessed too high
+3. guessed too low
+*/
 if (parseInt(guess) === randomNumber) {
    correctGuess = true;
 } else if (parseInt(guess) < randomNumber) {
