@@ -2,6 +2,7 @@
 Generates a number between 1 and 6
 and gives a player two attempts to guess the number.*/
 
+// Assume player didn't guess correctly
 var correctGuess = false;
 var randomNumber = Math.floor(Math.floor(Math.random() * 6)+ 1);
 var guess = prompt("I am thinking of a number between 1 and 6. What is it?");
